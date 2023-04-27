@@ -1,2 +1,2 @@
 # Farmacia-MongoDB
-Programa de java comunicado con un Db de mongo, TP para base de datos II
+Programa de java comunicado con DB de mongo, TP para base de datos II
