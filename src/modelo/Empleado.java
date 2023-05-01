@@ -4,7 +4,7 @@ public class Empleado extends Persona {
 	
 	private String cuil;
 	
-	public Empleado(int dni, String apelido, String nombre, String obraSocial, Domicilio domicilio, String cuil) {
+	public Empleado(int dni, String apelido, String nombre, String obraSocial, String domicilio, String cuil) {
 		super(dni, apelido, nombre, obraSocial, domicilio);
 		this.cuil = cuil;
 	}

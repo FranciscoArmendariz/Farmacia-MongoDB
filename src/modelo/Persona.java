@@ -6,9 +6,9 @@ public class Persona {
 	protected String apelido;
 	protected String nombre;
 	protected String obraSocial;
-	protected Domicilio domicilio;
+	protected String domicilio;
 	
- Persona(int dni, String apelido, String nombre, String obraSocial, Domicilio domicilio) {
+ Persona(int dni, String apelido, String nombre, String obraSocial, String domicilio) {
 		this.dni = dni;
 		this.apelido = apelido;
 		this.nombre = nombre;
@@ -42,31 +42,19 @@ public class Persona {
 	public void setObraSocial(String obraSocial) {
 		this.obraSocial = obraSocial;
 	}
-	public Domicilio getDomicilio() {
+	public String getDomicilio() {
 		return domicilio;
 	}
-	public void setDomicilio(Domicilio domicilio) {
+	public void setDomicilio(String domicilio) {
 		this.domicilio = domicilio;
 	}
 	public boolean equals(Persona p) {
 		return dni==p.dni;
 	}
 	
-	
 	@Override
 	public String toString() {
 		return "Persona [dni=" + dni + ", apelido=" + apelido + ", nombre=" + nombre + ", obraSocial=" + obraSocial
 				+ ", domicilio=" + domicilio + "]";
 	}
-	
-	
-	
-	
-	
-	
-	
-
-	
-	
-	
 }
