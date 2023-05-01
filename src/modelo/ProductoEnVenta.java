@@ -5,7 +5,7 @@ public class ProductoEnVenta {
 	private int cantidad;
 	private float totalProducto;
 
-	public ProductoEnVenta(Producto producto, int cantidad, float totalProducto) {
+	public ProductoEnVenta(Producto producto, int cantidad) {
 		super();
 		this.producto = producto;
 		this.cantidad = cantidad;
