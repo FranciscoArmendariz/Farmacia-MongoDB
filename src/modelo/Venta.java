@@ -1,6 +1,8 @@
 package modelo;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Venta {
 	private int ticket;
@@ -11,6 +13,7 @@ public class Venta {
 	private Empleado atencion;
 	private Empleado caja;
 	private Persona cliente;
+	private List<ProductoEnVenta> productos = new ArrayList<ProductoEnVenta>();
 
 	public Venta(int ticket, Sucursal puntoDeVenta, LocalDate fecha, String formaDePago, float total, Empleado atencion,
 			Empleado caja, Persona cliente) {
@@ -87,6 +90,10 @@ public class Venta {
 
 	public void setCliente(Persona cliente) {
 		this.cliente = cliente;
+	}
+
+	public List<ProductoEnVenta> getProductos() {
+		return productos;
 	}
 
 }
