@@ -10,16 +10,15 @@ import java.util.List;
 import modelo.*;
 
 public class Test {
-
 	public static void main(String[] args) throws IOException {
 
-		
 		// JACKSON ES UNA LIBRERIA QUE TAMBIEN SE AGREGÓ AL POM
 		// RECUERDEN HACER EL POM > MAVEN > UPDATE PROYECT.
-		
+
 		// EN LA LIST OBJETOS SE ALMACENARÁN TODOS LOS OBJETOS QUE
 		// DESPUES SERÁN MAPEADOS AL ARCHIVO FARMACIA.JSON
 		// CADA NSTANCIA DE LAS CLASES SE AGREGA A ESA LISTA
+
 		List<Object> objetos = new ArrayList<>();
 
 		Persona Cliente = new Persona(43850891, "Gonzalez", "Matias", "Osde", "Santa fe 2035");
@@ -51,25 +50,25 @@ public class Test {
 
 		// OBJETO DE LA LIBRERIA JACKSON PARA MAPEAR A JSON
 		ObjectMapper mapper = new ObjectMapper();
-		
+
 		// ESTE ES PARA LAS CLASES LOCAL DATE
 		// SI LUEGO EN MONGO QUEDA FEO, SE PUEDE CAMBIAR POR String
 		mapper.registerModule(new JavaTimeModule());
-		
+
 		// SE ESCRIBE EN LA VARIABLE JSON LOS OBJETOS YA MAPEADOS
 		String json = mapper.writeValueAsString(objetos);
 
 		// SE DECLARA UN ESCRITOR PARA PASAR LA VARIABLE JSON AL ARCHIVO Farmacia.json
 		// AL EJECUTAR EL TEST, SE CREARÁ EL ARCHIVO EN LA RUTA RAIZ DEL PROYECTO
 		FileWriter fileWriter = new FileWriter("Farmacia.json");
-		
+
 		// SE ESCRIBE
 		fileWriter.write(json);
-		
+
 		// SE CIERRA
 		fileWriter.close();
-		
-		//SE MUESTRA POR CONSOLA
+
+		// SE MUESTRA POR CONSOLA
 		System.out.println(json);
 
 	}
