@@ -54,4 +54,8 @@ public class Sucursal {
 		return puntoDeVenta == s.puntoDeVenta;
 	}
 
+	
+	public void agregarEmpleado(Empleado e) {
+		empleados.add(e);
+	}
 }

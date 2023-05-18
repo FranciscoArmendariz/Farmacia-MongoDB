@@ -12,11 +12,11 @@ import modelo.*;
 public class Test {
 	public static void main(String[] args) throws IOException {
 
-		// JACKSON ES UNA LIBRERIA QUE TAMBIEN SE AGREGÓ AL POM
+		// JACKSON ES UNA LIBRERIA QUE TAMBIEN SE AGREGÃ“ AL POM
 		// RECUERDEN HACER EL POM > MAVEN > UPDATE PROYECT.
 
-		// EN LA LIST OBJETOS SE ALMACENARÁN TODOS LOS OBJETOS QUE
-		// DESPUES SERÁN MAPEADOS AL ARCHIVO FARMACIA.JSON
+		// EN LA LIST OBJETOS SE ALMACENARÃ�N TODOS LOS OBJETOS QUE
+		// DESPUES SERÃ�N MAPEADOS AL ARCHIVO FARMACIA.JSON
 		// CADA NSTANCIA DE LAS CLASES SE AGREGA A ESA LISTA
 
 		List<Object> objetos = new ArrayList<>();
@@ -44,7 +44,7 @@ public class Test {
 		Sucursal1.getEmpleados().add(Empleado1);
 		objetos.add(Sucursal1);
 
-		Venta venta1 = new Venta(1, Sucursal1, LocalDate.now(), "Efectivo", 180.1f, Empleado0, Empleado1, Cliente);
+		Venta venta1 = new Venta(1, Sucursal1, LocalDate.now(), "Efectivo", Empleado0, Empleado1, Cliente);
 		venta1.getProductos().add(ProductoEnVenta1);
 		objetos.add(venta1);
 
@@ -59,7 +59,7 @@ public class Test {
 		String json = mapper.writeValueAsString(objetos);
 
 		// SE DECLARA UN ESCRITOR PARA PASAR LA VARIABLE JSON AL ARCHIVO Farmacia.json
-		// AL EJECUTAR EL TEST, SE CREARÁ EL ARCHIVO EN LA RUTA RAIZ DEL PROYECTO
+		// AL EJECUTAR EL TEST, SE CREARÃ� EL ARCHIVO EN LA RUTA RAIZ DEL PROYECTO
 		FileWriter fileWriter = new FileWriter("Farmacia.json");
 
 		// SE ESCRIBE

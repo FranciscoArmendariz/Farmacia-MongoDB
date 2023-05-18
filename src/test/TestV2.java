@@ -12,11 +12,11 @@ import modelo.*;
 public class TestV2 {
 	public static void main(String[] args) throws IOException {
 		
-		// JACKSON ES UNA LIBRERIA QUE TAMBIEN SE AGREGÓ AL POM
+		// JACKSON ES UNA LIBRERIA QUE TAMBIEN SE AGREGÃ“ AL POM
 		// RECUERDEN HACER EL POM > MAVEN > UPDATE PROYECT.
 		
-		// EN LA LIST OBJETOS SE ALMACENARÁN TODOS LOS OBJETOS QUE
-		// DESPUES SERÁN MAPEADOS AL ARCHIVO FARMACIA.JSON
+		// EN LA LIST OBJETOS SE ALMACENARÃ�N TODOS LOS OBJETOS QUE
+		// DESPUES SERÃ�N MAPEADOS AL ARCHIVO FARMACIA.JSON
 		// CADA NSTANCIA DE LAS CLASES SE AGREGA A ESA LISTA
 		
 		/****************************************************
@@ -73,7 +73,7 @@ public class TestV2 {
 
 		ProductoEnVenta ProductoEnVenta1 = new ProductoEnVenta(Producto1, 5);
 		
-		Venta venta1 = new Venta(1, Sucursal1, LocalDate.now(), "Efectivo", 180.1f, Empleado0, Empleado1, Cliente);
+		Venta venta1 = new Venta(1, Sucursal1, LocalDate.now(), "Efectivo", Empleado0, Empleado1, Cliente);
 		venta1.getProductos().add(ProductoEnVenta1);
 		ventas.add(venta1);
 		

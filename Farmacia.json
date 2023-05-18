@@ -1,1 +1,153 @@
-[{"dni":43850891,"apelido":"Gonzalez","nombre":"Matias","obraSocial":"Osde","domicilio":"Santa fe 2035"},{"dni":43890524,"apelido":"Gomez","nombre":"Sofia","obraSocial":"Ioma","domicilio":"Astrada 182","cuil":"27-43890524-4"},{"dni":42891522,"apelido":"Diaz","nombre":"Pablo","obraSocial":"Osde","domicilio":"Correa 182","cuil":"27-42891522-1"},{"dni":41891127,"apelido":"Romero","nombre":"Tomas","obraSocial":"Osde","domicilio":"Av. Libertador 18422","cuil":"27-41891127-9"},{"codigo":1,"tipo":true,"descripcion":"Gel refrescabte","precio":180.1,"laboratorio":"Pasteur"},{"producto":{"codigo":1,"tipo":true,"descripcion":"Gel refrescabte","precio":180.1,"laboratorio":"Pasteur"},"cantidad":5,"totalProducto":900.5},{"puntoDeVenta":1,"empleadoEncargado":{"dni":41891127,"apelido":"Romero","nombre":"Tomas","obraSocial":"Osde","domicilio":"Av. Libertador 18422","cuil":"27-41891127-9"},"empleados":[{"dni":43890524,"apelido":"Gomez","nombre":"Sofia","obraSocial":"Ioma","domicilio":"Astrada 182","cuil":"27-43890524-4"},{"dni":42891522,"apelido":"Diaz","nombre":"Pablo","obraSocial":"Osde","domicilio":"Correa 182","cuil":"27-42891522-1"}],"domicilio":"Florida 1243"},{"ticket":1,"puntoDeVenta":{"puntoDeVenta":1,"empleadoEncargado":{"dni":41891127,"apelido":"Romero","nombre":"Tomas","obraSocial":"Osde","domicilio":"Av. Libertador 18422","cuil":"27-41891127-9"},"empleados":[{"dni":43890524,"apelido":"Gomez","nombre":"Sofia","obraSocial":"Ioma","domicilio":"Astrada 182","cuil":"27-43890524-4"},{"dni":42891522,"apelido":"Diaz","nombre":"Pablo","obraSocial":"Osde","domicilio":"Correa 182","cuil":"27-42891522-1"}],"domicilio":"Florida 1243"},"fecha":[2023,5,1],"formaDePago":"Efectivo","total":180.1,"atencion":{"dni":43890524,"apelido":"Gomez","nombre":"Sofia","obraSocial":"Ioma","domicilio":"Astrada 182","cuil":"27-43890524-4"},"caja":{"dni":42891522,"apelido":"Diaz","nombre":"Pablo","obraSocial":"Osde","domicilio":"Correa 182","cuil":"27-42891522-1"},"cliente":{"dni":43850891,"apelido":"Gonzalez","nombre":"Matias","obraSocial":"Osde","domicilio":"Santa fe 2035"},"productos":[{"producto":{"codigo":1,"tipo":true,"descripcion":"Gel refrescabte","precio":180.1,"laboratorio":"Pasteur"},"cantidad":5,"totalProducto":900.5}]}]
+[
+  {
+    "dni": 43850891,
+    "apelido": "Gonzalez",
+    "nombre": "Matias",
+    "obraSocial": "Osde",
+    "domicilio": "Santa fe 2035"
+  },
+  {
+    "dni": 43890524,
+    "apelido": "Gomez",
+    "nombre": "Sofia",
+    "obraSocial": "Ioma",
+    "domicilio": "Astrada 182",
+    "cuil": "27-43890524-4"
+  },
+  {
+    "dni": 42891522,
+    "apelido": "Diaz",
+    "nombre": "Pablo",
+    "obraSocial": "Osde",
+    "domicilio": "Correa 182",
+    "cuil": "27-42891522-1"
+  },
+  {
+    "dni": 41891127,
+    "apelido": "Romero",
+    "nombre": "Tomas",
+    "obraSocial": "Osde",
+    "domicilio": "Av. Libertador 18422",
+    "cuil": "27-41891127-9"
+  },
+  {
+    "codigo": 1,
+    "tipo": true,
+    "descripcion": "Gel refrescabte",
+    "precio": 180.1,
+    "laboratorio": "Pasteur"
+  },
+  {
+    "producto": {
+      "codigo": 1,
+      "tipo": true,
+      "descripcion": "Gel refrescabte",
+      "precio": 180.1,
+      "laboratorio": "Pasteur"
+    },
+    "cantidad": 5,
+    "totalProducto": 900.5
+  },
+  {
+    "puntoDeVenta": 1,
+    "empleadoEncargado": {
+      "dni": 41891127,
+      "apelido": "Romero",
+      "nombre": "Tomas",
+      "obraSocial": "Osde",
+      "domicilio": "Av. Libertador 18422",
+      "cuil": "27-41891127-9"
+    },
+    "empleados": [
+      {
+        "dni": 43890524,
+        "apelido": "Gomez",
+        "nombre": "Sofia",
+        "obraSocial": "Ioma",
+        "domicilio": "Astrada 182",
+        "cuil": "27-43890524-4"
+      },
+      {
+        "dni": 42891522,
+        "apelido": "Diaz",
+        "nombre": "Pablo",
+        "obraSocial": "Osde",
+        "domicilio": "Correa 182",
+        "cuil": "27-42891522-1"
+      }
+    ],
+    "domicilio": "Florida 1243"
+  },
+  {
+    "ticket": 1,
+    "puntoDeVenta": {
+      "puntoDeVenta": 1,
+      "empleadoEncargado": {
+        "dni": 41891127,
+        "apelido": "Romero",
+        "nombre": "Tomas",
+        "obraSocial": "Osde",
+        "domicilio": "Av. Libertador 18422",
+        "cuil": "27-41891127-9"
+      },
+      "empleados": [
+        {
+          "dni": 43890524,
+          "apelido": "Gomez",
+          "nombre": "Sofia",
+          "obraSocial": "Ioma",
+          "domicilio": "Astrada 182",
+          "cuil": "27-43890524-4"
+        },
+        {
+          "dni": 42891522,
+          "apelido": "Diaz",
+          "nombre": "Pablo",
+          "obraSocial": "Osde",
+          "domicilio": "Correa 182",
+          "cuil": "27-42891522-1"
+        }
+      ],
+      "domicilio": "Florida 1243"
+    },
+    "fecha": [2023, 5, 1],
+    "formaDePago": "Efectivo",
+    "total": 180.1,
+    "atencion": {
+      "dni": 43890524,
+      "apelido": "Gomez",
+      "nombre": "Sofia",
+      "obraSocial": "Ioma",
+      "domicilio": "Astrada 182",
+      "cuil": "27-43890524-4"
+    },
+    "caja": {
+      "dni": 42891522,
+      "apelido": "Diaz",
+      "nombre": "Pablo",
+      "obraSocial": "Osde",
+      "domicilio": "Correa 182",
+      "cuil": "27-42891522-1"
+    },
+    "cliente": {
+      "dni": 43850891,
+      "apelido": "Gonzalez",
+      "nombre": "Matias",
+      "obraSocial": "Osde",
+      "domicilio": "Santa fe 2035"
+    },
+    "productos": [
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Gel refrescabte",
+          "precio": 180.1,
+          "laboratorio": "Pasteur"
+        },
+        "cantidad": 5,
+        "totalProducto": 900.5
+      }
+    ]
+  }
+]
