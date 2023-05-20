@@ -15,14 +15,14 @@ public class Venta {
 	private Persona cliente;
 	private List<ProductoEnVenta> productos = new ArrayList<ProductoEnVenta>();
 
-	public Venta(int ticket, Sucursal puntoDeVenta, LocalDate fecha, String formaDePago, float total, Empleado atencion,
+	public Venta(int ticket, Sucursal puntoDeVenta, LocalDate fecha, String formaDePago, Empleado atencion,
 			Empleado caja, Persona cliente) {
 		super();
 		this.ticket = ticket;
 		this.puntoDeVenta = puntoDeVenta;
 		this.fecha = fecha;
 		this.formaDePago = formaDePago;
-		this.total = total;
+		this.total = 0;
 		this.atencion = atencion;
 		this.caja = caja;
 		this.cliente = cliente;
@@ -96,4 +96,19 @@ public class Venta {
 		return productos;
 	}
 
+	
+	public float calcularTotal() {
+		float total =0;
+		for (int i=0;i<productos.size();i++) {
+			total+=productos.get(i).getTotalProducto();
+		}
+		return total;
+	} 
+	
+	public void agregarProducto(Producto producto,int cantidad) {
+		productos.add(new ProductoEnVenta(producto, cantidad));
+		this.setTotal(calcularTotal());
+	}
+	
+	
 }

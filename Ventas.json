@@ -1,0 +1,979 @@
+[
+  {
+    "ticket": 1,
+    "puntoDeVenta": {
+      "puntoDeVenta": 1,
+      "empleadoEncargado": {
+        "dni": 43890524,
+        "apelido": "Gomez",
+        "nombre": "Sofia",
+        "obraSocial": "IOMA",
+        "domicilio": "San Martin 1075, Morón, Buenos Aires",
+        "cuil": "20-43890524-4"
+      },
+      "empleados": [
+        {
+          "dni": 42891522,
+          "apelido": "Diaz",
+          "nombre": "Pablo",
+          "obraSocial": "OSDE",
+          "domicilio": "Avellaneda 3549, CABA",
+          "cuil": "20-42891522-5"
+        },
+        {
+          "dni": 41891127,
+          "apelido": "Romero",
+          "nombre": "Tomas",
+          "obraSocial": "Osde",
+          "domicilio": "Gaetán Gutiérrez 949, San Isidro, Buenos Aires",
+          "cuil": "20-41891127-2"
+        }
+      ],
+      "domicilio": "Av. Sta. Fe 1740, CABA"
+    },
+    "fecha": [2023, 5, 20],
+    "formaDePago": "Efectivo",
+    "total": 11301.7,
+    "atencion": {
+      "dni": 42891522,
+      "apelido": "Diaz",
+      "nombre": "Pablo",
+      "obraSocial": "OSDE",
+      "domicilio": "Avellaneda 3549, CABA",
+      "cuil": "20-42891522-5"
+    },
+    "caja": {
+      "dni": 41891127,
+      "apelido": "Romero",
+      "nombre": "Tomas",
+      "obraSocial": "Osde",
+      "domicilio": "Gaetán Gutiérrez 949, San Isidro, Buenos Aires",
+      "cuil": "20-41891127-2"
+    },
+    "cliente": {
+      "dni": 43850891,
+      "apelido": "Gonzalez",
+      "nombre": "Matias",
+      "obraSocial": "OSDE",
+      "domicilio": "Rodríguez Peña 1075, CABA"
+    },
+    "productos": [
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Gel Hidrantante Dermaglos 150g",
+          "precio": 2830.0,
+          "laboratorio": "Andrómaco"
+        },
+        "cantidad": 2,
+        "totalProducto": 5660.0
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Protector Solar fps50 250ml Dermaglos",
+          "precio": 3270.2,
+          "laboratorio": "Andrómaco"
+        },
+        "cantidad": 1,
+        "totalProducto": 3270.2
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Pasta dental Sensodyne 90g",
+          "precio": 790.5,
+          "laboratorio": "GSK"
+        },
+        "cantidad": 3,
+        "totalProducto": 2371.5
+      }
+    ]
+  },
+  {
+    "ticket": 2,
+    "puntoDeVenta": {
+      "puntoDeVenta": 2,
+      "empleadoEncargado": {
+        "dni": 43890524,
+        "apelido": "Franco",
+        "nombre": "Gloria ",
+        "obraSocial": "TV-sauld",
+        "domicilio": "Fischetti 5266, Caseros, Buenos Aires",
+        "cuil": "27-398362124-3"
+      },
+      "empleados": [
+        {
+          "dni": 43890524,
+          "apelido": "Balaguer",
+          "nombre": "Juan Pablo",
+          "obraSocial": "OSPIC",
+          "domicilio": "Calderón de la Barca 1732, Temperley, Buenos Aires",
+          "cuil": "20-44010534-4"
+        },
+        {
+          "dni": 43890524,
+          "apelido": "Laguna",
+          "nombre": "Tatiana ",
+          "obraSocial": "OSDE",
+          "domicilio": "Hernandarias 2747, Lomas de Zamora, Buenos Aires",
+          "cuil": "27-40450123-8"
+        },
+        {
+          "dni": 43890524,
+          "apelido": "Artega",
+          "nombre": "Ines ",
+          "obraSocial": "IOMA",
+          "domicilio": "Av. Presidente Néstor Kirchner 2802, Berazategui, Buenos Aires",
+          "cuil": "27-39219919-0"
+        }
+      ],
+      "domicilio": "Av, Belgrano 1194, CABA"
+    },
+    "fecha": [2023, 5, 20],
+    "formaDePago": "Debito",
+    "total": 4458.0,
+    "atencion": {
+      "dni": 43890524,
+      "apelido": "Balaguer",
+      "nombre": "Juan Pablo",
+      "obraSocial": "OSPIC",
+      "domicilio": "Calderón de la Barca 1732, Temperley, Buenos Aires",
+      "cuil": "20-44010534-4"
+    },
+    "caja": {
+      "dni": 43890524,
+      "apelido": "Laguna",
+      "nombre": "Tatiana ",
+      "obraSocial": "OSDE",
+      "domicilio": "Hernandarias 2747, Lomas de Zamora, Buenos Aires",
+      "cuil": "27-40450123-8"
+    },
+    "cliente": {
+      "dni": 43850891,
+      "apelido": "Quesada",
+      "nombre": "Maximino",
+      "obraSocial": "OSPIC",
+      "domicilio": "San José 431, CABA"
+    },
+    "productos": [
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Shampoo Dove 200ml",
+          "precio": 687.0,
+          "laboratorio": "Unilever"
+        },
+        "cantidad": 2,
+        "totalProducto": 1374.0
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Jabon de mano Dove 90g",
+          "precio": 250.0,
+          "laboratorio": "Unilever"
+        },
+        "cantidad": 2,
+        "totalProducto": 500.0
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": false,
+          "descripcion": "Paracetamol x 30 Comprimidos",
+          "precio": 694.0,
+          "laboratorio": "ISA"
+        },
+        "cantidad": 1,
+        "totalProducto": 694.0
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": false,
+          "descripcion": "Actron Plus X 8 Capsulas Blandas",
+          "precio": 630.0,
+          "laboratorio": "Bayer"
+        },
+        "cantidad": 3,
+        "totalProducto": 1890.0
+      }
+    ]
+  },
+  {
+    "ticket": 3,
+    "puntoDeVenta": {
+      "puntoDeVenta": 2,
+      "empleadoEncargado": {
+        "dni": 43890524,
+        "apelido": "Franco",
+        "nombre": "Gloria ",
+        "obraSocial": "TV-sauld",
+        "domicilio": "Fischetti 5266, Caseros, Buenos Aires",
+        "cuil": "27-398362124-3"
+      },
+      "empleados": [
+        {
+          "dni": 43890524,
+          "apelido": "Balaguer",
+          "nombre": "Juan Pablo",
+          "obraSocial": "OSPIC",
+          "domicilio": "Calderón de la Barca 1732, Temperley, Buenos Aires",
+          "cuil": "20-44010534-4"
+        },
+        {
+          "dni": 43890524,
+          "apelido": "Laguna",
+          "nombre": "Tatiana ",
+          "obraSocial": "OSDE",
+          "domicilio": "Hernandarias 2747, Lomas de Zamora, Buenos Aires",
+          "cuil": "27-40450123-8"
+        },
+        {
+          "dni": 43890524,
+          "apelido": "Artega",
+          "nombre": "Ines ",
+          "obraSocial": "IOMA",
+          "domicilio": "Av. Presidente Néstor Kirchner 2802, Berazategui, Buenos Aires",
+          "cuil": "27-39219919-0"
+        }
+      ],
+      "domicilio": "Av, Belgrano 1194, CABA"
+    },
+    "fecha": [2023, 5, 20],
+    "formaDePago": "Debito",
+    "total": 3460.25,
+    "atencion": {
+      "dni": 43890524,
+      "apelido": "Balaguer",
+      "nombre": "Juan Pablo",
+      "obraSocial": "OSPIC",
+      "domicilio": "Calderón de la Barca 1732, Temperley, Buenos Aires",
+      "cuil": "20-44010534-4"
+    },
+    "caja": {
+      "dni": 43890524,
+      "apelido": "Artega",
+      "nombre": "Ines ",
+      "obraSocial": "IOMA",
+      "domicilio": "Av. Presidente Néstor Kirchner 2802, Berazategui, Buenos Aires",
+      "cuil": "27-39219919-0"
+    },
+    "cliente": {
+      "dni": 43850891,
+      "apelido": "Segarra",
+      "nombre": "Marco",
+      "obraSocial": "OSPIC",
+      "domicilio": "Moreno 1169, CABA"
+    },
+    "productos": [
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": false,
+          "descripcion": "Ibuprofeno 400 x 30comprimidos",
+          "precio": 690.75,
+          "laboratorio": "ISA"
+        },
+        "cantidad": 3,
+        "totalProducto": 2072.25
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": false,
+          "descripcion": "Paracetamol x 30 Comprimidos",
+          "precio": 694.0,
+          "laboratorio": "ISA"
+        },
+        "cantidad": 2,
+        "totalProducto": 1388.0
+      }
+    ]
+  },
+  {
+    "ticket": 4,
+    "puntoDeVenta": {
+      "puntoDeVenta": 1,
+      "empleadoEncargado": {
+        "dni": 43890524,
+        "apelido": "Gomez",
+        "nombre": "Sofia",
+        "obraSocial": "IOMA",
+        "domicilio": "San Martin 1075, Morón, Buenos Aires",
+        "cuil": "20-43890524-4"
+      },
+      "empleados": [
+        {
+          "dni": 42891522,
+          "apelido": "Diaz",
+          "nombre": "Pablo",
+          "obraSocial": "OSDE",
+          "domicilio": "Avellaneda 3549, CABA",
+          "cuil": "20-42891522-5"
+        },
+        {
+          "dni": 41891127,
+          "apelido": "Romero",
+          "nombre": "Tomas",
+          "obraSocial": "Osde",
+          "domicilio": "Gaetán Gutiérrez 949, San Isidro, Buenos Aires",
+          "cuil": "20-41891127-2"
+        }
+      ],
+      "domicilio": "Av. Sta. Fe 1740, CABA"
+    },
+    "fecha": [2023, 5, 20],
+    "formaDePago": "Efectivo",
+    "total": 630.0,
+    "atencion": {
+      "dni": 42891522,
+      "apelido": "Diaz",
+      "nombre": "Pablo",
+      "obraSocial": "OSDE",
+      "domicilio": "Avellaneda 3549, CABA",
+      "cuil": "20-42891522-5"
+    },
+    "caja": {
+      "dni": 41891127,
+      "apelido": "Romero",
+      "nombre": "Tomas",
+      "obraSocial": "Osde",
+      "domicilio": "Gaetán Gutiérrez 949, San Isidro, Buenos Aires",
+      "cuil": "20-41891127-2"
+    },
+    "cliente": {
+      "dni": 43850891,
+      "apelido": "Barbera",
+      "nombre": "Victoria",
+      "obraSocial": "Mefide",
+      "domicilio": "Arenales 1701, CABA"
+    },
+    "productos": [
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": false,
+          "descripcion": "Actron Plus X 8 Capsulas Blandas",
+          "precio": 630.0,
+          "laboratorio": "Bayer"
+        },
+        "cantidad": 1,
+        "totalProducto": 630.0
+      }
+    ]
+  },
+  {
+    "ticket": 5,
+    "puntoDeVenta": {
+      "puntoDeVenta": 2,
+      "empleadoEncargado": {
+        "dni": 43890524,
+        "apelido": "Franco",
+        "nombre": "Gloria ",
+        "obraSocial": "TV-sauld",
+        "domicilio": "Fischetti 5266, Caseros, Buenos Aires",
+        "cuil": "27-398362124-3"
+      },
+      "empleados": [
+        {
+          "dni": 43890524,
+          "apelido": "Balaguer",
+          "nombre": "Juan Pablo",
+          "obraSocial": "OSPIC",
+          "domicilio": "Calderón de la Barca 1732, Temperley, Buenos Aires",
+          "cuil": "20-44010534-4"
+        },
+        {
+          "dni": 43890524,
+          "apelido": "Laguna",
+          "nombre": "Tatiana ",
+          "obraSocial": "OSDE",
+          "domicilio": "Hernandarias 2747, Lomas de Zamora, Buenos Aires",
+          "cuil": "27-40450123-8"
+        },
+        {
+          "dni": 43890524,
+          "apelido": "Artega",
+          "nombre": "Ines ",
+          "obraSocial": "IOMA",
+          "domicilio": "Av. Presidente Néstor Kirchner 2802, Berazategui, Buenos Aires",
+          "cuil": "27-39219919-0"
+        }
+      ],
+      "domicilio": "Av, Belgrano 1194, CABA"
+    },
+    "fecha": [2023, 5, 20],
+    "formaDePago": "Credito",
+    "total": 29351.35,
+    "atencion": {
+      "dni": 43890524,
+      "apelido": "Artega",
+      "nombre": "Ines ",
+      "obraSocial": "IOMA",
+      "domicilio": "Av. Presidente Néstor Kirchner 2802, Berazategui, Buenos Aires",
+      "cuil": "27-39219919-0"
+    },
+    "caja": {
+      "dni": 43890524,
+      "apelido": "Laguna",
+      "nombre": "Tatiana ",
+      "obraSocial": "OSDE",
+      "domicilio": "Hernandarias 2747, Lomas de Zamora, Buenos Aires",
+      "cuil": "27-40450123-8"
+    },
+    "cliente": {
+      "dni": 43850891,
+      "apelido": "Alvaro",
+      "nombre": "Nadia",
+      "obraSocial": "OSPIC",
+      "domicilio": "Salta 333, CABA"
+    },
+    "productos": [
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Gel Hidrantante Dermaglos 150g",
+          "precio": 2830.0,
+          "laboratorio": "Andrómaco"
+        },
+        "cantidad": 2,
+        "totalProducto": 5660.0
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Protector Solar fps50 250ml Dermaglos",
+          "precio": 3270.2,
+          "laboratorio": "Andrómaco"
+        },
+        "cantidad": 3,
+        "totalProducto": 9810.6
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Pasta dental Sensodyne 90g",
+          "precio": 790.5,
+          "laboratorio": "GSK"
+        },
+        "cantidad": 2,
+        "totalProducto": 1581.0
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Shampoo Dove 200ml",
+          "precio": 687.0,
+          "laboratorio": "Unilever"
+        },
+        "cantidad": 5,
+        "totalProducto": 3435.0
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Jabon de mano Dove 90g",
+          "precio": 250.0,
+          "laboratorio": "Unilever"
+        },
+        "cantidad": 6,
+        "totalProducto": 1500.0
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": false,
+          "descripcion": "Paracetamol x 30 Comprimidos",
+          "precio": 694.0,
+          "laboratorio": "ISA"
+        },
+        "cantidad": 2,
+        "totalProducto": 1388.0
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": false,
+          "descripcion": "Oralsone Topico Solucion 20ml",
+          "precio": 1992.25,
+          "laboratorio": "Gramon Millet"
+        },
+        "cantidad": 3,
+        "totalProducto": 5976.75
+      }
+    ]
+  },
+  {
+    "ticket": 6,
+    "puntoDeVenta": {
+      "puntoDeVenta": 2,
+      "empleadoEncargado": {
+        "dni": 43890524,
+        "apelido": "Franco",
+        "nombre": "Gloria ",
+        "obraSocial": "TV-sauld",
+        "domicilio": "Fischetti 5266, Caseros, Buenos Aires",
+        "cuil": "27-398362124-3"
+      },
+      "empleados": [
+        {
+          "dni": 43890524,
+          "apelido": "Balaguer",
+          "nombre": "Juan Pablo",
+          "obraSocial": "OSPIC",
+          "domicilio": "Calderón de la Barca 1732, Temperley, Buenos Aires",
+          "cuil": "20-44010534-4"
+        },
+        {
+          "dni": 43890524,
+          "apelido": "Laguna",
+          "nombre": "Tatiana ",
+          "obraSocial": "OSDE",
+          "domicilio": "Hernandarias 2747, Lomas de Zamora, Buenos Aires",
+          "cuil": "27-40450123-8"
+        },
+        {
+          "dni": 43890524,
+          "apelido": "Artega",
+          "nombre": "Ines ",
+          "obraSocial": "IOMA",
+          "domicilio": "Av. Presidente Néstor Kirchner 2802, Berazategui, Buenos Aires",
+          "cuil": "27-39219919-0"
+        }
+      ],
+      "domicilio": "Av, Belgrano 1194, CABA"
+    },
+    "fecha": [2023, 5, 20],
+    "formaDePago": "Credito",
+    "total": 3517.0,
+    "atencion": {
+      "dni": 43890524,
+      "apelido": "Franco",
+      "nombre": "Gloria ",
+      "obraSocial": "TV-sauld",
+      "domicilio": "Fischetti 5266, Caseros, Buenos Aires",
+      "cuil": "27-398362124-3"
+    },
+    "caja": {
+      "dni": 43890524,
+      "apelido": "Laguna",
+      "nombre": "Tatiana ",
+      "obraSocial": "OSDE",
+      "domicilio": "Hernandarias 2747, Lomas de Zamora, Buenos Aires",
+      "cuil": "27-40450123-8"
+    },
+    "cliente": {
+      "dni": 43850891,
+      "apelido": "Alvaro",
+      "nombre": "Nadia",
+      "obraSocial": "OSPIC",
+      "domicilio": "Salta 333, CABA"
+    },
+    "productos": [
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Gel Hidrantante Dermaglos 150g",
+          "precio": 2830.0,
+          "laboratorio": "Andrómaco"
+        },
+        "cantidad": 1,
+        "totalProducto": 2830.0
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Shampoo Dove 200ml",
+          "precio": 687.0,
+          "laboratorio": "Unilever"
+        },
+        "cantidad": 1,
+        "totalProducto": 687.0
+      }
+    ]
+  },
+  {
+    "ticket": 7,
+    "puntoDeVenta": {
+      "puntoDeVenta": 1,
+      "empleadoEncargado": {
+        "dni": 43890524,
+        "apelido": "Gomez",
+        "nombre": "Sofia",
+        "obraSocial": "IOMA",
+        "domicilio": "San Martin 1075, Morón, Buenos Aires",
+        "cuil": "20-43890524-4"
+      },
+      "empleados": [
+        {
+          "dni": 42891522,
+          "apelido": "Diaz",
+          "nombre": "Pablo",
+          "obraSocial": "OSDE",
+          "domicilio": "Avellaneda 3549, CABA",
+          "cuil": "20-42891522-5"
+        },
+        {
+          "dni": 41891127,
+          "apelido": "Romero",
+          "nombre": "Tomas",
+          "obraSocial": "Osde",
+          "domicilio": "Gaetán Gutiérrez 949, San Isidro, Buenos Aires",
+          "cuil": "20-41891127-2"
+        }
+      ],
+      "domicilio": "Av. Sta. Fe 1740, CABA"
+    },
+    "fecha": [2023, 5, 20],
+    "formaDePago": "Efectivo",
+    "total": 2564.75,
+    "atencion": {
+      "dni": 43890524,
+      "apelido": "Gomez",
+      "nombre": "Sofia",
+      "obraSocial": "IOMA",
+      "domicilio": "San Martin 1075, Morón, Buenos Aires",
+      "cuil": "20-43890524-4"
+    },
+    "caja": {
+      "dni": 42891522,
+      "apelido": "Diaz",
+      "nombre": "Pablo",
+      "obraSocial": "OSDE",
+      "domicilio": "Avellaneda 3549, CABA",
+      "cuil": "20-42891522-5"
+    },
+    "cliente": {
+      "dni": 43850891,
+      "apelido": "Barbera",
+      "nombre": "Victoria",
+      "obraSocial": "Mefide",
+      "domicilio": "Arenales 1701, CABA"
+    },
+    "productos": [
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Shampoo Dove 200ml",
+          "precio": 687.0,
+          "laboratorio": "Unilever"
+        },
+        "cantidad": 2,
+        "totalProducto": 1374.0
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Jabon de mano Dove 90g",
+          "precio": 250.0,
+          "laboratorio": "Unilever"
+        },
+        "cantidad": 2,
+        "totalProducto": 500.0
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": false,
+          "descripcion": "Ibuprofeno 400 x 30comprimidos",
+          "precio": 690.75,
+          "laboratorio": "ISA"
+        },
+        "cantidad": 1,
+        "totalProducto": 690.75
+      }
+    ]
+  },
+  {
+    "ticket": 8,
+    "puntoDeVenta": {
+      "puntoDeVenta": 1,
+      "empleadoEncargado": {
+        "dni": 43890524,
+        "apelido": "Gomez",
+        "nombre": "Sofia",
+        "obraSocial": "IOMA",
+        "domicilio": "San Martin 1075, Morón, Buenos Aires",
+        "cuil": "20-43890524-4"
+      },
+      "empleados": [
+        {
+          "dni": 42891522,
+          "apelido": "Diaz",
+          "nombre": "Pablo",
+          "obraSocial": "OSDE",
+          "domicilio": "Avellaneda 3549, CABA",
+          "cuil": "20-42891522-5"
+        },
+        {
+          "dni": 41891127,
+          "apelido": "Romero",
+          "nombre": "Tomas",
+          "obraSocial": "Osde",
+          "domicilio": "Gaetán Gutiérrez 949, San Isidro, Buenos Aires",
+          "cuil": "20-41891127-2"
+        }
+      ],
+      "domicilio": "Av. Sta. Fe 1740, CABA"
+    },
+    "fecha": [2023, 5, 20],
+    "formaDePago": "Debito",
+    "total": 4775.0,
+    "atencion": {
+      "dni": 43890524,
+      "apelido": "Gomez",
+      "nombre": "Sofia",
+      "obraSocial": "IOMA",
+      "domicilio": "San Martin 1075, Morón, Buenos Aires",
+      "cuil": "20-43890524-4"
+    },
+    "caja": {
+      "dni": 41891127,
+      "apelido": "Romero",
+      "nombre": "Tomas",
+      "obraSocial": "Osde",
+      "domicilio": "Gaetán Gutiérrez 949, San Isidro, Buenos Aires",
+      "cuil": "20-41891127-2"
+    },
+    "cliente": {
+      "dni": 43850891,
+      "apelido": "Gonzalez",
+      "nombre": "Matias",
+      "obraSocial": "OSDE",
+      "domicilio": "Rodríguez Peña 1075, CABA"
+    },
+    "productos": [
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Pasta dental Sensodyne 90g",
+          "precio": 790.5,
+          "laboratorio": "GSK"
+        },
+        "cantidad": 1,
+        "totalProducto": 790.5
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": false,
+          "descripcion": "Oralsone Topico Solucion 20ml",
+          "precio": 1992.25,
+          "laboratorio": "Gramon Millet"
+        },
+        "cantidad": 2,
+        "totalProducto": 3984.5
+      }
+    ]
+  },
+  {
+    "ticket": 9,
+    "puntoDeVenta": {
+      "puntoDeVenta": 2,
+      "empleadoEncargado": {
+        "dni": 43890524,
+        "apelido": "Franco",
+        "nombre": "Gloria ",
+        "obraSocial": "TV-sauld",
+        "domicilio": "Fischetti 5266, Caseros, Buenos Aires",
+        "cuil": "27-398362124-3"
+      },
+      "empleados": [
+        {
+          "dni": 43890524,
+          "apelido": "Balaguer",
+          "nombre": "Juan Pablo",
+          "obraSocial": "OSPIC",
+          "domicilio": "Calderón de la Barca 1732, Temperley, Buenos Aires",
+          "cuil": "20-44010534-4"
+        },
+        {
+          "dni": 43890524,
+          "apelido": "Laguna",
+          "nombre": "Tatiana ",
+          "obraSocial": "OSDE",
+          "domicilio": "Hernandarias 2747, Lomas de Zamora, Buenos Aires",
+          "cuil": "27-40450123-8"
+        },
+        {
+          "dni": 43890524,
+          "apelido": "Artega",
+          "nombre": "Ines ",
+          "obraSocial": "IOMA",
+          "domicilio": "Av. Presidente Néstor Kirchner 2802, Berazategui, Buenos Aires",
+          "cuil": "27-39219919-0"
+        }
+      ],
+      "domicilio": "Av, Belgrano 1194, CABA"
+    },
+    "fecha": [2023, 5, 20],
+    "formaDePago": "Credito",
+    "total": 690.75,
+    "atencion": {
+      "dni": 43890524,
+      "apelido": "Franco",
+      "nombre": "Gloria ",
+      "obraSocial": "TV-sauld",
+      "domicilio": "Fischetti 5266, Caseros, Buenos Aires",
+      "cuil": "27-398362124-3"
+    },
+    "caja": {
+      "dni": 43890524,
+      "apelido": "Laguna",
+      "nombre": "Tatiana ",
+      "obraSocial": "OSDE",
+      "domicilio": "Hernandarias 2747, Lomas de Zamora, Buenos Aires",
+      "cuil": "27-40450123-8"
+    },
+    "cliente": {
+      "dni": 43850891,
+      "apelido": "Quesada",
+      "nombre": "Maximino",
+      "obraSocial": "OSPIC",
+      "domicilio": "San José 431, CABA"
+    },
+    "productos": [
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": false,
+          "descripcion": "Ibuprofeno 400 x 30comprimidos",
+          "precio": 690.75,
+          "laboratorio": "ISA"
+        },
+        "cantidad": 1,
+        "totalProducto": 690.75
+      }
+    ]
+  },
+  {
+    "ticket": 10,
+    "puntoDeVenta": {
+      "puntoDeVenta": 2,
+      "empleadoEncargado": {
+        "dni": 43890524,
+        "apelido": "Franco",
+        "nombre": "Gloria ",
+        "obraSocial": "TV-sauld",
+        "domicilio": "Fischetti 5266, Caseros, Buenos Aires",
+        "cuil": "27-398362124-3"
+      },
+      "empleados": [
+        {
+          "dni": 43890524,
+          "apelido": "Balaguer",
+          "nombre": "Juan Pablo",
+          "obraSocial": "OSPIC",
+          "domicilio": "Calderón de la Barca 1732, Temperley, Buenos Aires",
+          "cuil": "20-44010534-4"
+        },
+        {
+          "dni": 43890524,
+          "apelido": "Laguna",
+          "nombre": "Tatiana ",
+          "obraSocial": "OSDE",
+          "domicilio": "Hernandarias 2747, Lomas de Zamora, Buenos Aires",
+          "cuil": "27-40450123-8"
+        },
+        {
+          "dni": 43890524,
+          "apelido": "Artega",
+          "nombre": "Ines ",
+          "obraSocial": "IOMA",
+          "domicilio": "Av. Presidente Néstor Kirchner 2802, Berazategui, Buenos Aires",
+          "cuil": "27-39219919-0"
+        }
+      ],
+      "domicilio": "Av, Belgrano 1194, CABA"
+    },
+    "fecha": [2023, 5, 20],
+    "formaDePago": "Debito",
+    "total": 6184.7,
+    "atencion": {
+      "dni": 43890524,
+      "apelido": "Balaguer",
+      "nombre": "Juan Pablo",
+      "obraSocial": "OSPIC",
+      "domicilio": "Calderón de la Barca 1732, Temperley, Buenos Aires",
+      "cuil": "20-44010534-4"
+    },
+    "caja": {
+      "dni": 43890524,
+      "apelido": "Artega",
+      "nombre": "Ines ",
+      "obraSocial": "IOMA",
+      "domicilio": "Av. Presidente Néstor Kirchner 2802, Berazategui, Buenos Aires",
+      "cuil": "27-39219919-0"
+    },
+    "cliente": {
+      "dni": 43850891,
+      "apelido": "Segarra",
+      "nombre": "Marco",
+      "obraSocial": "OSPIC",
+      "domicilio": "Moreno 1169, CABA"
+    },
+    "productos": [
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Protector Solar fps50 250ml Dermaglos",
+          "precio": 3270.2,
+          "laboratorio": "Andrómaco"
+        },
+        "cantidad": 1,
+        "totalProducto": 3270.2
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Pasta dental Sensodyne 90g",
+          "precio": 790.5,
+          "laboratorio": "GSK"
+        },
+        "cantidad": 1,
+        "totalProducto": 790.5
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Shampoo Dove 200ml",
+          "precio": 687.0,
+          "laboratorio": "Unilever"
+        },
+        "cantidad": 2,
+        "totalProducto": 1374.0
+      },
+      {
+        "producto": {
+          "codigo": 1,
+          "tipo": true,
+          "descripcion": "Jabon de mano Dove 90g",
+          "precio": 250.0,
+          "laboratorio": "Unilever"
+        },
+        "cantidad": 3,
+        "totalProducto": 750.0
+      }
+    ]
+  }
+]
